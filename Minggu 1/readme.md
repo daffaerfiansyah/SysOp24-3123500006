@@ -31,7 +31,7 @@ Sistem operasi mempunyai penjadwalan yang sistematis mencakup perhitungan penggu
 
 <b>Debian</b> adalah sistem operasi komputer yang tersusun dari paket-paket perangkat lunak yang dirilis sebagai perangkat lunak bebas dan terbuka dengan lisensi mayoritas GNU General Public License dan lisensi perangkat lunak bebas lainnya. Debian GNU/Linux memuat perkakas sistem operasi GNU dan kernel Linux merupakan distribusi Linux yang populer dan berpengaruh. Debian didistribusikan dengan akses ke repositori dengan ribuan paket perangkat lunak yang siap untuk instalasi dan digunakan. 
 
-# Soal 1
+# Soal
 
 ## 1. Jelaskan langkah-langkah proses booting!
 
