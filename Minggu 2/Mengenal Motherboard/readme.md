@@ -23,10 +23,10 @@ Motherboard adalah saraf pusat atau otak didalam sistem komputer. Motherboard ju
 
 ## Bagian Motherboard
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/2.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/komponen-motherboard.jpg)
 
 <div>
-  <h3>Keterangan</h3>
+  <h3><b>Keterangan</b></h3>
 
   <p>1. <b>Port Firewire</b>, yaitu untuk mendukung 800MB/s untuk transfer kecepatan tinggi, untuk kamera video eksternal dan juga disk drive eksternal.</p>
   <p>2. <b>PCI x1</b>, yaitu untuk menempatkan aksesoris seperti halnya adapter nirkabel, TV tunner dan lain sebagainya.</p>
@@ -46,13 +46,13 @@ Motherboard adalah saraf pusat atau otak didalam sistem komputer. Motherboard ju
   <p>16. <b>CMOS Baterai</b>, yaitu untuk mempertahankan memori dari chip CMOS yang berisi hal-hal seperti waktu, tanggal, jenis perangkat keras dan juga pengaturan lainnya khusus untuk komputer.</p>
 </div>
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/2.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/motherboard.jpg)
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/2.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
 
 
 <div>
-  <h3>Keterangan</h3>
+  <h3><b>Keterangan</b></h3>
   <p>1. <b>Socket Processor</b>, yaitu tempat terpasangnya processor atau CPU (Central Processing Unit) yang sering disebut otak dari komputer.</p>
   <p>2. <b>Socket RAM atau Slot Memori</b>, yaitu untuk menempatkan RAM atau Memasang RAM.</p>
   <p>3. <b>Northbridge</b>, yaitu sebutan bagi komponen utama yang mengatur lalu lintas data diantara processor dengan sistem memori dan juga saluran utama motherboard.</p>
