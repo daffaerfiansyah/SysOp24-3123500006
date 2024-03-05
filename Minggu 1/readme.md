@@ -37,7 +37,7 @@ Sistem operasi mempunyai penjadwalan yang sistematis mencakup perhitungan penggu
 
 ### Proses Booting
 
-Proses booting pada komputer, termasuk laptop, terdiri dari beberapa tahapan yang menyusun dari saat tombol power ditekan hingga sistem operasi siap untuk digunakan. Berikut adalah tahapan-tahapan proses booting :
+Proses booting pada komputer, termasuk laptop, terdiri dari beberapa tahapan yang menyusun dari saat tombol power ditekan hingga sistem operasi siap untuk digunakan. Berikut adalah tahapan-tahapan proses booting:
 
 1. <b>Power On</b>
 Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer.
@@ -69,7 +69,7 @@ Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan progr
 Download dan Install Software Virtualbox
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/1.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/1.png?raw=true)
 
 <p>Download VirtualBox yang sesuai dengan Sistem Operasi dan spesifikasi pengguna</p>
 </div>
@@ -79,7 +79,7 @@ Download dan Install Software Virtualbox
 Install Software Virtualbox
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/2.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/2.png?raw=true.png?raw=true)
 
 <p>Tampilan awal untuk menginstall VirtualBox kemudian pilih next untuk melanjutkan menginstall</p>
 </div>
@@ -88,7 +88,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/3.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/3.png?raw=true)
 
 <p>Pilih penyimpanan yang diinginkan untuk standar penyimpanan biasanya pada Local Disk C/Program Files</p>
 </div>
@@ -97,7 +97,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/4.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/4.png?raw=true)
 
 <p>Klik tombol "Yes" untuk melanjutkan install software VirtualBox</p>
 </div>
@@ -106,7 +106,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/5.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/5.png?raw=true)
 
 <p>Klik tombol "Install" untuk melanjutkan proses instalasi software VirtualBox</p>
 </div>
@@ -115,7 +115,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/6.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/6.png?raw=true)
 
 <p>Tunggu hingga proses penginstallan selesai</p>
 </div>
@@ -124,7 +124,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/7.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/7.png?raw=true)
 
 <p>Setelah proses penginstallan selesai kemudian klik tombol "Finish" untuk melanjutkan pada software VirtualBox</p>
 </div>
@@ -133,7 +133,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/8.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/8.png?raw=true)
 
 <p>Ini adalah tampilan awal pada software VirtualBox yang sudah terinstall kemudian klik tombol "New" untuk menginstall Debian</p>
 </div>
@@ -142,7 +142,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/9.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/9.png?raw=true)
 
 <p>Berikan nama dan penyimpanan yang diinginkan pengguna dan masukan file .iso debian 12 yang sudah di download lalu pilih next</p>
 </div>
@@ -151,7 +151,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/10.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/10.png?raw=true)
 
 <p>Pilih memory dan prosesor yang sesuai dengan spesifikasi pengguna untuk contoh pada device saya memilih memory 2048 dan prosesor 2 cpu</p>
 </div>
@@ -160,7 +160,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/11.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/11.png?raw=true)
 
 <p>Pilih ukuran disk pada 26.50 GB kemudian klik tombol next</p>
 </div>
@@ -169,7 +169,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/12.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/12.png?raw=true)
 
 <p>Cross check pada daftar yang ingin diinstall apakah sudah sesuai jika sudah klik tombol "Finish"</p>
 </div>
@@ -178,7 +178,7 @@ Install Software Virtualbox
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/13.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/13.png?raw=true)
 
 <p>Tunggu hingga proses selesai</p>
 </div>
@@ -188,7 +188,7 @@ Install Software Virtualbox
 Install Software Debian 12
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/14.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/14.png?raw=true)
 
 <p>Ini adalah tampilan awal proses install pada Sistem Operasi Debian 12 pilih "Graphic Install" kemudian enter</p>
 </div>
@@ -197,7 +197,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/14a.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/14a.png?raw=true)
 
 <p>Pilih Bahasa English lalu tekan enter</p>
 </div>
@@ -206,7 +206,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/15.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/15.png?raw=true)
 
 <p>Pilih lokasi United States lalu tekan enter</p>
 </div>
@@ -216,7 +216,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/16.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/16.png?raw=true)
 
 <p>Ketik hostname dengan format "SysOp-NRP" untuk contoh saya isi dengan "Sysop-3123500006" kemudian tekan "Continue" untuk melanjutkan</p>
 </div>
@@ -225,7 +225,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/17.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/17.png?raw=true)
 
 <p>Pada langkah ini kosongkan untuk domain name nya lalu tekan "Continue"</p>
 </div>
@@ -234,7 +234,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/18.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/18.png?raw=true)
 
 <p>Buat paswword yang sesuai dengan pengguna lalu tekan "Continue" untuk melanjutkan</p>
 </div>
@@ -243,7 +243,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/19.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/19.png?raw=true)
 
 <p>Masukkan nama pengguna kemudian klik "continue" untuk contoh saya memasukkan "daffaerfiansyah" </p>
 </div>
@@ -252,7 +252,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/21.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/21.png?raw=true)
 
 <p>Membuat password untuk login pada Debian kemudian klik "Continue" untuk melanjutkan</p>
 </div>
@@ -261,7 +261,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/22.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/22.png?raw=true)
 
 <p>Pilih lokasi Jam yang sesuai dengan pengguna</p>
 </div>
@@ -270,7 +270,7 @@ Install Software Debian 12
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/23.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/23.png?raw=true)
 
 <p>Pilih Manual kemudian klik tombol "Continue"</p>
 </div>
@@ -281,7 +281,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/24.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/24.png?raw=true)
 
 <p>Pilih "SCSI3 (0,0,0) (sda) - 28.5 GB AT VBOX HARDDISK" lalu klik "Continue"</p>
 </div>
@@ -290,7 +290,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/25.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/25.png?raw=true)
 
 <p>Pilih "Yes" kemudian klik "Continue"</p>
 </div>
@@ -299,7 +299,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/26.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/26.png?raw=true)
 
 <p>Tekan "pri/log 28.5 GB FREE SPACE" lalu klik "Continue" untuk membuat partisi</p>
 </div>
@@ -308,7 +308,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/27.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/27.png?raw=true)
 
 <p>Pilih dan tekan "Create a new partition" kemudian klik "Continue"</p>
 </div>
@@ -317,7 +317,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/28.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/28.png?raw=true)
 
 <p>Ketikan "20 GB" untuk membuat partisi pertama lalu tekan "Continue"</p>
 </div>
@@ -326,7 +326,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/29.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/29.png?raw=true)
 
 <p>Pilih "Primary" lalu klik "Continue"</p>
 </div>
@@ -335,7 +335,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/30.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/30.png?raw=true)
 
 <p>Pilih "Beginning" kemudian klik "Continue"</p>
 </div>
@@ -344,7 +344,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/31.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/31.png?raw=true)
 
 <p>Kemudian klik "Done setting up the partition" dan klik "Continue" untuk kembali ke menu partisi</p>
 </div>
@@ -353,7 +353,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/32.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/32.png?raw=true)
 
 <p>Kemudian klik "pri/log 8.5 GB FREE SPACE" untuk membuat partisi kedua lalu klik "Continue"</p>
 </div>
@@ -362,7 +362,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/33.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/33.png?raw=true)
 
 <p>ketik "5 GB" kemudian klik "Continue"</p>
 </div>
@@ -371,7 +371,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/34.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/34.png?raw=true)
 
 <p>Samakan dengan partisi pertama yaitu "Primary"</p>
 </div>
@@ -380,7 +380,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/35.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/35.png?raw=true)
 
 <p>Samakan dengan partisi pertama yaitu "Beginning"</p>
 </div>
@@ -389,7 +389,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/36.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/36.png?raw=true)
 
 <p>Klik "Done setting up the partition" dan klik "Continue" untuk kembali ke menu partisi</p>
 </div>
@@ -398,7 +398,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/37.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/37.png?raw=true)
 
 <p>Pilih "pri/log 3.5 GB FREE SPACE" untuk membuat partisi ketiga</p>
 </div>
@@ -408,7 +408,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/38.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/38.png?raw=true)
 
 <p>Ketik "1.5 GB" untuk partisi ketiga lalu tekan "Continue"</p>
 </div>
@@ -417,7 +417,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/39.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/38.png?raw=true)
 
 <p>Tekan "Use as" lalu pilih "Swap Area" untuk menjadikan partisi ketiga sebagai swap</p>
 </div>
@@ -426,7 +426,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/40.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/40.png?raw=true)
 
 <p>Klik "Done setting up the partition" untuk melanjutkan partisi ketiga</p>
 </div>
@@ -435,7 +435,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/41.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/41.png?raw=true)
 
 <p>Klik "Finish partitioning and write changes to disk" untuk melanjutkan proses partisi</p>
 </div>
@@ -444,7 +444,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/42.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/42.png?raw=true)
 
 <p>Tunggu hingga selesai</p>
 </div>
@@ -453,7 +453,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/43.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/43.png?raw=true)
 
 <p>Pilih "No" lalu klik "Continue"</p>
 </div>
@@ -462,7 +462,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/44.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/44.png?raw=true)
 
 <p>Pilih lokasi Indonesia kemmudian klik "Continue"</p>
 </div>
@@ -471,7 +471,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/45.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/45.png?raw=true)
 
 <p>Pilih "kebo.pens.ac.id" lalu klik "Continue"</p>
 </div>
@@ -480,7 +480,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/46.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/46.png?raw=true)
 
 <p>Kosongkan untuk langkah ini lalu klik "Continue"</p>
 </div>
@@ -489,7 +489,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/47.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/47.png?raw=true)
 
 <p>Tunggu hingga proses selesai</p>
 </div>
@@ -498,7 +498,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/48.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/48.png?raw=true)
 
 <p>Pilih "Yes" kemudian klik "Continue"</p>
 </div>
@@ -507,7 +507,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/49.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/49.png?raw=true)
 
 <p>Centang pada 3 pilihan seperti di gambar lalu klik "Continue"</p>
 </div>
@@ -516,7 +516,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/50.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/50.png?raw=true)
 
 <p>Tunggu hingga proses selesai</p>
 </div>
@@ -525,7 +525,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/51.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/51.png?raw=true)
 
 <p>Pilih menu kedua seperti gambar diatas kemudian klik "Continue"</p>
 </div>
@@ -534,7 +534,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/52.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/52.png?raw=true)
 
 <p>Tunggu hingga proses selesai</p>
 </div>
@@ -543,7 +543,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/53.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/53.png?raw=true)
 
 <p>Klik "Continue" untuk menyelesaikan proses instalasi debian</p>
 </div>
@@ -552,7 +552,7 @@ Membuat Partisi
 
 <div align="center">
 
-![App Screenshot](https://github.com/daffaerfiansyah/System-Operation/blob/main/Minggu%201/Image%20Screenshot/54.png?raw=true)
+![App Screenshot](https://github.com/daffaerfiansyah/System-Operation-3123500006/blob/main/Minggu%201/Assets/54.png?raw=true)
 
 <p>Ini adalah tampilan awal ketika Debian sudah terinstall</p>
 </div>
