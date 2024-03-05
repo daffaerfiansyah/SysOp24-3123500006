@@ -86,4 +86,8 @@ Motherboard adalah saraf pusat atau otak didalam sistem komputer. Motherboard ju
   <p>24. <b>Port Audio</b>, yaitu untuk menghubungkan komputer dengan sistem audio seperti mikrofon, speaker, line-in dan line-out.</p>
 </div>
 
+## Referensi
+
+[Motherboard](https://www.ilmupengetahuan.co.id/pengertian-dan-fungsi-komponen-motherboard/)
+
 
