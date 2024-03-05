@@ -22,8 +22,12 @@
 Motherboard adalah saraf pusat atau otak didalam sistem komputer. Motherboard juga bisa dideskripsikan sebagai dual prosesor ataupun single prosesor. Motherboard dengan single prosesor tunggal (single processor) tidaklah selalu bisa memenuhi kebutuhan tersebut, terutama didalam lingkungan jaringan perusahaan.
 
 <h1>Bagian Motherboard</h1>
+<div align="center">
 
 ![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/komponen-motherboard.jpg)
+
+</div>
+
 
 <div>
   <h3><b>Keterangan</b></h3>
@@ -45,10 +49,13 @@ Motherboard adalah saraf pusat atau otak didalam sistem komputer. Motherboard ju
   <p>15. <b>Chipset</b>, yaitu ntuk mengontrol penggunaan daya dan transfer bisa pada socket maupun port yang terpasang pada motherboard.</p>
   <p>16. <b>CMOS Baterai</b>, yaitu untuk mempertahankan memori dari chip CMOS yang berisi hal-hal seperti waktu, tanggal, jenis perangkat keras dan juga pengaturan lainnya khusus untuk komputer.</p>
 </div>
+<div align="center">
 
 ![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/motherboard.jpg)
 
 ![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+</div>
+
 
 
 <div>
