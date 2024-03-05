@@ -18,19 +18,63 @@
 
 <div>
 <h2 align="center">Perbaikan Minggu 1</h2>
-<p> <b>Menjalankan bootstrap loader</b></p>
-<p>Setelah pengecekan Power-On Self-Test (POST) adalah melakukan proses meload program ke dalam memori komputer yang bertanggung jawab untuk mengaktifkan proses selanjutnya dalam booting.</p>
 
-<p><b>Inisialisasi Perangkat Keras</b></p>
-<p>Komputer melakukan pengenalan terhadap perangkat keras yang tersambung untuk memastikan semua perangkat dapat beroperasi dengan baik.</p>
+### Proses Booting
 
-<h2 align="center">Contoh Gambar pada Proses Bootloader</h2>
+1. <b>Power On</b>
+Saat tombol power atau tombol reset dihidupkan, sumber daya listrik akan mengalir ke komputer.
+Kemudian, perangkat keras akan menerima daya untuk dinyalakan.
 <div align="center">
 
 ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
 
-![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/07-bootorder.jpg?raw=true)
 </div>
+
+2. <b>Power-On Self-Test (POST)</b>
+Setelah dinyalakan, komputer akan melakukan Power-On Self-Test atau POST, yang merupakan serangkaian tes perangkat keras untuk memastikan bahwa semuanya berfungsi dengan baik. 
+POST akan memeriksa RAM, prosesor, kartu grafis, dan perangkat keras lainnya. 
+Jika ada masalah dengan perangkat keras, komputer akan memberikan pesan kesalahan yang sesuai.
+<div align="center">
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
+
+</div>
+
+3. <b>Bios/UEFI Initialization</b>
+BIOS itu singkatan dari “Basic Input / Output System” dan merupakan jenis firmware yang tersimpan pada chip pada motherboard.Sedangkan <b>UEFI</b> adalah singkatan dari “Unified Extensible Firmware Interface“. Ini adalah penerus dari BIOS tradisional. UEFI menawarkan dukungan untuk volume booting lebih dari 2 TB dalam ukuran, dukungan untuk lebih dari empat partisi pada drive, booting lebih cepat, dan memungkinkan fitur yang lebih modern.
+<div align="center">
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
+
+</div>
+
+4. <b>Bootstrap loader</b>
+Setelah pengecekan Power-On Self-Test (POST) adalah melakukan proses meload program ke dalam memori komputer yang bertanggung jawab untuk mengaktifkan proses selanjutnya dalam booting.
+
+<div align="center">
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
+
+</div>
+
+5. <b>Memuat Sistem Operasi</b>
+Setelah sektor boot ditemukan, komputer akan memuat sistem operasi ke dalam memori utama (RAM). 
+Kemudian, sistem operasi akan mengambil alih kendali dan mulai menjalankan program-program yang diperlukan untuk mengoperasikan komputer.
+<div align="center">
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
+
+</div>
+
+6. <b>Kernel Initialization</b>
+Setelah sistem operasi dimuat, kernel (inti) sistem operasi diinisialisasi. Kernel bertanggung jawab untuk mengelola sumber daya komputer dan menjalankan proses-proses utama.
+<div align="center">
+
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
+
+</div>
+
+<h2 align="center">Contoh Gambar pada Proses Bootloader</h2>
 </div>
 <br>
 <div>
