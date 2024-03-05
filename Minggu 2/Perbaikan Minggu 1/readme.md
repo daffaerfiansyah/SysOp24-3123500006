@@ -27,9 +27,9 @@
 <h2 align="center">Contoh Gambar pada Proses Bootloader</h2>
 <div align="center">
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/komponen-motherboard.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/bootloader.jpg?raw=true)
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/komponen-motherboard.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%202/Assets/07-bootorder.jpg?raw=true)
 </div>
 </div>
 <br>
@@ -48,10 +48,10 @@ Setelah proses POST selesai, firmware akan memuat sektor pertama dari setiap tar
 Adapun saat prosedur POST (Power On Self-Test), firmware UEFI akan memindai semua perangkat penyimpanan yang dapat di boot dan terhubung ke sistem untuk menemukan GUID Partition Table (GPT) yang valid. Berbeda dengan MBR di Legacy, GPT di sini tidak berisi bootloader, firmware ini sendiri akan memeriksa GPT untuk menemukan Partisi Layanan EFI untuk boot.
 
 Dengan mode boot UEFI, Anda dimungkinkan melakukan pengontrolan antarmuka menggunakan perangkat mouse, sedangkan di BIOS biasanya menggunakan keyboard untuk mengontrol opsi. UEFI termasuk mode boot yang modern dan dijamin aman, ini juga dapat mencegah perangkat lunak berbahaya.</p>
+<br>
+<h2 align="center">Perbedaan Spesifikasi Legacy dan UEFI</h2>
 
-<h3>Perbedaan spesifikasi Legacy dan UEFI</h3>
-
-| Spesifikasi   | Legacy  | UEFI  |
+| <p align="center">Spesifikasi</p>   | <p align="center">Legacy</p>  | <p align="center">UEFI</p>  |
 | ----------- | ---------- | --------- |
 | Skema Pemeriksaan Partisi | Master Boot Record (MBR) | GUID Partition Table (GPT) |
 | Proses Booting | Proses booting komputer menggunakan firmware BIOS. | Proses booting pada komputer modern yang menyediakan kemampuan lebih canggih daripada BIOS. |
@@ -63,9 +63,11 @@ Dengan mode boot UEFI, Anda dimungkinkan melakukan pengontrolan antarmuka menggu
 | Nama partisi | Tersimpan pada partisi | ID GUID unik disertai dengan nama 36 karakter. |
 | Dukungan multi boot | Kurang mumpuni | Bagus, dengan entri boot loader dalam partisi terpisah. |
  
-
+<br>
 </div>
 
 ## Referensi
+
+[Bootloader](https://bukuedu.id/pengertian-booting-adalah)
 
 [Legacy dan UEFI](https://dianisa.com/perbedaan-legacy-bios-dan-uefi/#google_vignette)
