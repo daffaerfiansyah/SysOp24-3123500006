@@ -62,9 +62,9 @@
 <br>
 <h2 align="center">Analisa Hasil Benchmarking</h2>
 
-<p align-items="center">
+<p justify-content="center">
 
-|                      | IOPS (Integer)         | FLOPS (Floating Point)    |
+|                      | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
 |----------------------|------------------------|---------------------------|
 | Total Throughput     | 6.339286 Gigaiops     | 5.637343 Gigaflops       |
 | Single Core Throughput | 3.185454 Gigaiops   | 2.821573 Gigaflops       |
