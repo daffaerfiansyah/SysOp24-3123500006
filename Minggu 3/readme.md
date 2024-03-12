@@ -62,7 +62,7 @@
 <br>
 <h2 align="center">Analisa Hasil Benchmarking</h2>
 
-<p align="center">
+<p align-items="center">
 
 |                      | IOPS (Integer)         | FLOPS (Floating Point)    |
 |----------------------|------------------------|---------------------------|
