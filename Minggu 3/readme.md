@@ -32,7 +32,7 @@
 <div align="center">
 
 ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_Install%20Gcc.png?raw=true)
-<p>Lakukan perintah "$ sudo apt update" pada terminal kemudian ketik "$ sudo apt install gcc" untuk menginstall compile</p>
+<p>Lakukan perintah "$ sudo apt update" pada terminal kemudian ketik "$ sudo apt install gcc" untuk menginstall compile dan "$ sudo apt install git" untuk menginstall git pada debian</p>
 </div>
 
 <p>2. Melakukan Git clone pada Debian 12</p>
