@@ -54,7 +54,7 @@
 <div align="center">
 
 ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_IOPS64.png?raw=true)
-<p>Untuk benchmarking menggunakan iops ketik pada terminal "$ iops32 $(nproc)" atau "$ iops64 $(nproc)" sesuaikan dengan spesifikasi laptop</p>
+<p>Untuk benchmarking menggunakan iops ketik pada terminal "$ iops32 $(nproc)" atau ketik "$ iops64 $(nproc)" sesuaikan dengan spesifikasi laptop</p>
 
 ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
 <p>Untuk benchmarking pada flops sama seperti iops hanya saja mengganti dari iops menjadi flops "$ flops32 $(nproc)" atau $ flops64 $(nproc)</p>
