@@ -31,33 +31,33 @@
 <p>1. Melakukan Instalasi Package GCC,Make dan Git pada Debian 12 yang sudah terinstall</p>
 <div align="center">
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_Install%20Gcc.png?raw=true)
 <p>Lakukan perintah "$ sudo apt update" pada terminal kemudian ketik "$ sudo apt install gcc" untuk menginstall compile</p>
 </div>
 
 <p>2. Melakukan Git clone pada Debian 12</p>
 <div align="center">
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_Git%20clone.png?raw=true)
 <p>Arahkan direktori pada terminal yang ingin dituju lalu ketik "$ git init" kemudian "$ git clone (paste link github) lalu tekan enter</p>
 </div>
 <p>3. Melakukan Build Binaries,Cleaning, dan Install Binaries</p>
 <div align="center">
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_make.png?raw=true)
 <p>Arahkan direktori pada folder flops/iops yang telah dilakukan git clone pada langkah sebelumnya kemudian buka terminal dan ketik "$ make"</p>
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_Make%20Clean.png?raw=true)
 <p>Kemudian lakukan perintah "$ make clean" lalu ketik "$ sudo make install" untuk menginstall binaries pada debian.</p>
 </div>
 <p>4. Melakukan Proses Benchmarking menggunakan Iops dan Flops</p>
 <div align="center">
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_IOPS64.png?raw=true)
 <p>Untuk benchmarking menggunakan iops ketik pada terminal "$ iops32 $(nproc)" atau "$ iops64 $(nproc)" sesuaikan dengan spesifikasi laptop</p>
 
-![App Screenshot](https://raw.githubusercontent.com/daffaerfiansyah/System-Operation-3123500006/6dd34569840f627cd5d348a7ae3764b57b74fcc4/Minggu%202/Assets/back-panel.jpg)
-<p>Untuk benchmarking pada flops sama seperti iops hanya saja mengganti dari iops menjadi flops "$ flops32 $(nproc)" atau $ flops34 $(nproc)</p>
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+<p>Untuk benchmarking pada flops sama seperti iops hanya saja mengganti dari iops menjadi flops "$ flops32 $(nproc)" atau $ flops64 $(nproc)</p>
 </div>
 <br>
 <h2 align="center">Analisa Hasil Benchmarking</h2>
@@ -76,3 +76,5 @@ Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput
 
 ## Referensi
 [Wikipedia IOPS](https://en.wikipedia.org/wiki/IOPS)
+
+[Wikipedia FLOPS](https://en.wikipedia.org/wiki/FLOPS)
