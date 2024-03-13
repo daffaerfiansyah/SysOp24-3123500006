@@ -17,6 +17,11 @@
 </div>
 
 <div>
+<h2 align="center">PowerPoint Siklus CPU</h2>
+<p>
+Berikut mengenai presentasi atau penjelasan langkah-langkah dalam siklus CPU(Fetch,Decode,Execute) yang dapat diakses: [Siklus CPU](https://www.canva.com/design/DAF_RTHy4wk/7QWlAIIeue3ksGOfXBmg9Q/edit)
+
+</p>
 <h2 align="center">Iops Dan Flops</h2>
 
 <h2>Definisi</h2>
