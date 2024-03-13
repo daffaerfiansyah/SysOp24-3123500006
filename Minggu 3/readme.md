@@ -16,13 +16,33 @@
   <hr><hr>
 </div>
 
+## Daftar Isi
+
+1. [Powerpoint](#ppt)
+2. [IOPS dan FLOPS](#iops-flops)
+   - [Benchmarking](#benchmarking)
+   - [Analisa Hasil Benchmarking](#analisa-hasil-benchmarking)
+   - [Tabel Perbandingan Pengujian](#tabel-perbandingan-pengujian)
+     - [Analisa](#analisa-pengujian)
+3. [Referensi](#referensi)
+
 <div>
-<h2 align="center">PowerPoint Siklus CPU</h2>
+<div align="center">
+
+## Powerpoint Siklus CPU
+
+</div>
 <p>
-Berikut mengenai presentasi atau penjelasan langkah-langkah dalam siklus CPU(Fetch,Decode,Execute) yang dapat diakses: [Siklus CPU](https://www.canva.com/design/DAF_RTHy4wk/7QWlAIIeue3ksGOfXBmg9Q/edit)
+Berikut mengenai presentasi atau penjelasan langkah-langkah dalam siklus CPU(Fetch,Decode,Execute) dalam mengeksekusi sebuah program
+
+Yang dapat diakses pada link berikut: [PPT Siklus CPU](https://www.canva.com/design/DAF_RTHy4wk/7QWlAIIeue3ksGOfXBmg9Q/edit)
 
 </p>
-<h2 align="center">Iops Dan Flops</h2>
+<br>
+<div align="center">
+
+## Iops dan Flops
+</div>
 
 <h2>Definisi</h2>
 
