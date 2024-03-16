@@ -24,9 +24,7 @@
    - [Analisa Hasil Benchmarking](#analisa-hasil-benchmarking)
    - [Tabel Perbandingan Pengujian](#tabel-perbandingan-pengujian)
      - [Analisa](#analisa-pengujian)
-3. [Referensi](#referensi)
-
-<div>
+     
 <div align="center">
 
 ## Powerpoint Siklus CPU

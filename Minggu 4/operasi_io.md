@@ -1,84 +1,20 @@
-# Operasi Input Output
-Referensi : [Shell Programming](https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/?ref=shm_)
-## POKOK BAHASAN:
-```
-* Pipeline
-* Redirection
-```
-## TUJUAN PEMBELAJARAN:
-Setelah mempelajari materi dalam bab ini, mahasiswa diharapkan mampu:
-* Memahami konsep proses I/O dan redirection
-* Memahami standar input, output dan error
-* Menggunakan notasi output, append dan here document
-* Memahami konsep *PIPE* dan filter
-  
-## DASAR TEORI:
+<div align="center">
+  <h1 style="text-align: center;font-weight: bold">Pratikum Operasi Input & Output Minggu 4<br>Sistem Operasi</h1>
+  <h4 style="text-align: center;">Dosen Pengampu : Dr. Ferry Astika Saputra, S.T., M.Sc.</h4>
+</div>
+<br/>
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png" alt="Logo PENS">
+  <h3 style="text-align: center;">Disusun Oleh : <br>Kelompok 4</h3>
+  <p style="text-align: center;">
+    <strong>Muhammad Yafi Rifdah Zayyan (3123500001)</strong><br>
+    <strong>Muhammad Daffa Erfiansyah (3123500006)</strong><br>
+    <strong>Maula Shahihah Nur Sa'adah (3123500008)</strong>
+  </p>
 
-### 1. PROSES I/O
-Sebuah proses memerlukan Input dan Output. Instruksi (command) yang diberikan pada Linux melalui Shell disebut sebagai eksekusi program yang selanjutnya disebut proses. Setiap kali instruksi diberikan, maka Linux kernel akan menciptakan sebuah proses dengan memberikan nomor PID (Process Identity). Proses dalam Linux selalu membutuhkan Input dan menghasilkan suatu Output.
-
-```mermaid
-graph LR
-    Input[Input] --> Process[Process] --> Output[Output]
-```
-
-Dalam konteks Linux input/output adalah :
-* Keyboard (input)
-* Layar (output)
-* Files
-* Struktur data kernel
-* Peralatan I/O lainnya (misalnya Network)
-
-## 2. FILE DESCRIPTOR
-
-Linux berkomunikasi dengan file melalui file descriptor yang direpresentasikan melalui angka yang dimulai dari 0, 1, 2 dan seterusnya. Tiga buah file descriptor standar yang lalu diciptakan oleh proses adalah :
-* 0 = keyboard (standar input)
-* 1 = layar (standar output)
-* 2 = layar (standar error)
-
-Linux tidak membedakan antara peralatan hardware dan file. Linux memanipulasi peralatan hardware dengan memperlakukannya sama dengan ketika memperlakukan sebuah file.
-
-## 3.PEMBELOKAN (REDIRECTION)
-
-Pembelokan dilakukan untuk standard input, output dan error, yaitu untuk mengalihkan file descriptor dari 0, 1 dan 2. Simbol untuk pembelokan adalah :
-```mermaid
-flowchart LR
-    A(Standart Input) -->|Keyboard| B{Process}
-    B -->|Monitor| C[Standart Output]
-    B -->|Monitor| D[Standart Error]
- ```
-
-## 4. PIPA (PIPELINE)
-Mekanisme pipa digunakan sebagai alat komunikasi antar proses.
-
-```mermaid
-graph LR
-  A(Input) --> B(Proses-1) --> C(Output) --> D(Input) --> E(Proses-2) --> F(Output)
-```
-Proses-1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Proses-2. Hubungan output input ini dinamakan ``pipa atau pipelining``, yang menghubungkan Proses-1 dengan Proses-2 dan dinyatakan dengan symbol “|”.
-```
-    Proses1 | Proses
-```
-
-## 5. FILTER
-Filter adalah utilitas Linux yang dapat memproses standard input (dari keyboard) dan menampilkan hasilnya pada standard output (layar). Contoh filter adalah cat, sort, grep, pr, head, tail, paste dan lainnya.
-Pada sebuah rangkaian pipa : 
-
-        P<sub>1</sub> | P<sub>2</sub> | P<sub>3</sub> ... | P<sub>n-1</sub> | P<sub>n</sub>
-
-Maka P2 sampai dengan P<sub>n-1</sub> berfungsi sebagai filter. P1 (awal) dan Pn (terakhir) boleh tidak filter. Utilitas yang bukan filter misalnya who, ls, ps, lp, lpr, mail dan lainnya.
-Beberapa perintah Linux yang digunakan untuk proses penyaringan antara lain :
-* Perintah ``grep``
-  Digunakan untuk menyaring masukannya dan menampilkan baris-baris yang hanya mengandung pola yang ditentukan. Pola ini disebut regular expression.
-* Perintah ``wc``
-  Digunakan untuk menghitung jumlah baris, kata dan karakter dari baris-baris masukan yang diberikan kepadanya. Untuk mengetahui berapa baris gunakan option –l, untuk mengetahui berapa kata, gunakan option –w dan untuk mengetahui berapa karakter, gunakan option –c. 
-  Jika salah satu option tidak digunakan, maka tampilannya adalah jumlah baris, jumlah kata dan jumlah karakter.
-* Perintah ``sort``
-  Digunakan untuk mengurutkan masukannya berdasarkan urutan nomor ASCII dari karakter.
-* Perintah ``cut``
-  Digunakan untuk mengambil kolom tertentu dari baris-baris masukannya, yang ditentukan pada option –c.
-* Perintah ``uniq``
-  Digunakan untuk menghilangkan baris-baris berurutan yang mengalami duplikasi, biasanya digabungkan dalam pipeline dengan ``sort``.
+   <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2024/2025</h3>
+  <hr><hr>
+</div>
 
 ## TUGAS PENDAHULUAN:
 
@@ -126,25 +62,25 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
     ```
     $ ps
     ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-1.png?raw=true)
 
 2. Output ke layar (standar output), input dari keyboard (standard input)
    ```
     $ cat
-    hallo, apa khabar
-    hallo, apa khabar
+    hallo, apa kabar
+    hallo, apa kabar
     exit dengan ^d
     exit dengan ^d
     [Ctrl-d]
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-2.png?raw=true)
 
 3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
    ```
    $ mkdir mydir
    $ mkdir mydir **(Terdapat pesan error)**
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-3.png?raw=true)
 
 ## Percobaan 2 : Pembelokan (redirection)
 1. Pembelokan standar output
@@ -152,14 +88,14 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
     $ cat 1> myfile.txt
     Ini adalah teks yang saya simpan ke file myfile.txt
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-4.png?raw=true)
 
 2. Pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file
    ```
     $ cat 0< myfile.txt
     $ cat myfile.txt
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-5.png?raw=true)
 
 3. Pembelokan standar error untuk disimpan di file
    ```
@@ -167,7 +103,7 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
     $ mkdir mydir 2> myerror.txt
     $ cat myerror.txt
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-6.png?raw=true)
 
 4. Notasi 2>&1 : pembelokan standar error (2>) adalah identik dengan file descriptor 1.
    ```
@@ -177,7 +113,7 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
     $ ls filebaru 2> out.txt 2>&
     $ cat out.txt
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-7.png?raw=true)
 
 5. Notasi 1>&2 (atau >&2) : pembelokan standar output adalah sama dengan file descriptor 2 yaitu standar error
    ```
@@ -185,7 +121,7 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    $ cat filebaru 2> baru 1>&
    $ cat baru
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-8.png?raw=true)
 
 6. Notasi >> (append)
    ```
@@ -196,7 +132,7 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    $ echo “kata keempat” > surat
    $ cat surat
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-9.png?raw=true)
 
 7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda penutup harus diberikan pada awal baris
    ```
@@ -211,13 +147,13 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    Ok!
    %%%
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-10.png?raw=true)
 
 8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi “-“ berarti menyelipkan input dari keyboard
   ```
   $ cat myfile.txt – surat
   ```
-  ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+  ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-11.png?raw=true)
 
 <br>
 
@@ -234,7 +170,11 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    $ ls –l /etc | more
    $ ls –l /etc | sort | more
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-12.png?raw=true)
+
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-13.png?raw=true)
+
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-14.png?raw=true)
 
 2. Untuk membelokkan standart output ke file, digunakan operator ">"
    ```
@@ -242,20 +182,20 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    $ echo hello > output
    $ cat output
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-15.png?raw=true)
 
 3. Untuk menambahkan output ke file digunakan operator ">>"
    ```
    $ echo bye >> output
    $ cat output
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-16.png?raw=true)
 
 4. Untuk membelokkan standart input digunakan operator "<"
    ```
    $ cat < output
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-17.png?raw=true)
 
 5. Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output.
    ```
@@ -269,7 +209,7 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
    [Ctrl-c]
    $ cat out
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-18.png?raw=true)
 
 <br>
 
@@ -297,7 +237,9 @@ Proses 1 menghasilkan output yang selanjutnya digunakan sebagai input oleh Prose
     $ cat kelas1.txt kelas2.txt > kelas.txt
     $ cat kelas.txt | sort | uniq
    ```
-   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%203/Assets/IMG_FLOPS64.png?raw=true)
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-19.png?raw=true)
+   
+   ![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%204/Assets/Percobaan/IMG-20.png?raw=true)
 
 <br>
 
