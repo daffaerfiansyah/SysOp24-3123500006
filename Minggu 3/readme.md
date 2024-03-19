@@ -101,9 +101,9 @@ Yang dapat diakses pada link berikut: [PPT Siklus CPU](https://www.canva.com/des
 
 | Nama  | CPU | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS    | Max CPU IOPS   |
 | ----- | ----------- | --------------------- | -------------------- | ---------------- | ---------------|
-| Yafi  |             | 5.6 Gigaflops         | 3.9 Gigaiops         | 11.1 Gigaflops   | 7.7 Gigaiops   |
-| Daffa | AMD Ryzen 3 3200U  2.60 GHz | 3.4 Gigaflops         | 3.5 Gigaiops         | 6.5  Gigaflops   | 6.7 Gigaiops   |
-| Maula |             | 4.5 Gigaflops         | 4.1 Gigaiops         | 8.2  Gigaflops   | 7.5 Gigaiops   |
+| Yafi  | Intel® Core™ i5-1335U Processor  4.6 GHz | 5.6 Gigaflops         | 3.9 Gigaiops         | 11.1 Gigaflops   | 7.7 Gigaiops   |
+| Daffa | AMD Ryzen 3 3200U 2.60 GHz | 3.4 Gigaflops         | 3.5 Gigaiops         | 6.5  Gigaflops   | 6.7 Gigaiops   |
+| Maula | AMD Ryzen 3 3250U 2.6GHz | 4.5 Gigaflops         | 4.1 Gigaiops         | 8.2  Gigaflops   | 7.5 Gigaiops   |
 
 <br>
 </div>
