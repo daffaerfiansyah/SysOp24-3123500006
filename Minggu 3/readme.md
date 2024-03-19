@@ -12,7 +12,7 @@
     <strong>Maula Shahihah Nur Sa'adah (3123500008)</strong>
   </p>
 
-<h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2024/2025</h3>
+<h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
 </div>
 
@@ -86,6 +86,8 @@ Yang dapat diakses pada link berikut: [PPT Siklus CPU](https://www.canva.com/des
 <h2 align="center">Analisa Hasil Benchmarking</h2>
 
 <p justify-content="center">
+<p>Spesifikasi Laptop yang saya pakai:</p>
+<p>AMD Ryzen 3 3200U with Radeon Vega Mobile Gfx 2.60 GHz</p>
 
 |                      | IOPS64 (Integer)         | FLOPS64 (Floating Point)    |
 |----------------------|------------------------|---------------------------|
@@ -94,6 +96,15 @@ Yang dapat diakses pada link berikut: [PPT Siklus CPU](https://www.canva.com/des
 </p>
 
 <p>Dengan melihat tabel di atas, dapat dilihat bahwa IOPS memiliki total throughput dan throughput single core yang lebih tinggi dibandingkan dengan FLOPS. Namun demikian, perbedaan antara total throughput dan throughput single core juga penting untuk diperhatikan karena menunjukkan seberapa baik CPU dapat mengalokasikan dan memanfaatkan sumber daya secara efisien antara inti tunggal dan total throughput.</p>
+<h2>Hasil Perbandingan dengan teman kelompok</h2>
+
+
+| Nama  | CPU | Max Single Core FLOPS | Max Single Core IOPS | Max CPU FLOPS    | Max CPU IOPS   |
+| ----- | ----------- | --------------------- | -------------------- | ---------------- | ---------------|
+| Yafi  |             | 5.6 Gigaflops         | 3.9 Gigaiops         | 11.1 Gigaflops   | 7.7 Gigaiops   |
+| Daffa | AMD Ryzen 3 3200U  2.60 GHz | 3.4 Gigaflops         | 3.5 Gigaiops         | 6.5  Gigaflops   | 6.7 Gigaiops   |
+| Maula |             | 4.5 Gigaflops         | 4.1 Gigaiops         | 8.2  Gigaflops   | 7.5 Gigaiops   |
+
 <br>
 </div>
 
