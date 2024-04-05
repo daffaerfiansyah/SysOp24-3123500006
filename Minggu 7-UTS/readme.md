@@ -94,38 +94,17 @@ Setelah pemanggilan fork(), dua proses akan berjalan secara paralel: proses indu
 
 Untuk membedakan tindakan antara proses induk dan anak, hasil kembalian dari fork() adalah nilai pid (process id), di mana nilai pid > 0 menunjukkan bahwa kode ini sedang berjalan pada proses induk, sementara nilai pid = 0 menunjukkan bahwa kode ini sedang berjalan pada proses anak.
 
-![App Screenshot](img/gambar1.jpeg)
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/raw/main/week-7(UTS)/img/gambar1.jpeg)
 
-![App Screenshot](img/gambar2.jpeg)
+![App Screenshot](https://github.com/maulaasn/SysOp-3123500008/raw/main/week-7(UTS)/img/gambar2.jpeg)
 
-```
+### Implementasi menggunakan Bahasa C
 
-#include <sys/types.h>
+#### Source Code:
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-1.png?raw=true)
 
-#include <unistd.h>
-#include <stdio.h>
-
-int main()
-{
-pid_t child_id;
-printf("This is the main program, with PID = %d, Child's ID = %d, Parent ID = %d\n",
-(int) getpid(), (int) child_id, (int) getppid());
-
-    child_id = fork();
-    if(child_id != 0){
-      printf("This is the parent process, with PID = %d, Child's ID = %d, Parent ID = %d\n",
-      (int) getpid(), (int) child_id, (int) getppid());
-    } else {
-      printf("This is the child process, with PID = %d, Child's ID = %d, Parent ID = %d\n",
-      (int) getpid(), (int) child_id, (int) getppid());
-    }
-
-} 
-
-```
-
-![App Screenshot](img/konsep_parentchild.png)
-
+#### Output:
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-2.png?raw=true)
 <br>
 
 `fork01.cpp`
@@ -163,7 +142,7 @@ return 0;
 
 Output Program
 
-![App Screenshot](img/fork1.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-4.png?raw=true)
 
 Visualisasi
 
@@ -171,17 +150,17 @@ Visualisasi
 int main() { 
     for(int i = 0; i < 3; i++) {
 
-                    pid: 2756, ppid: 2666, uid: 1000
+                    pid: 2975, ppid: 1904, uid: 1000
                             [Main Process]
                                   |
                                sleep(3)
                                   |
-                    pid: 2756, ppid: 2666, uid: 1000
+                    pid: 2975, ppid: 1904, uid: 1000
                             [Main Process]
                                   |
                                 sleep(3)
                                   |
-                    pid: 2756, ppid: 2666, uid: 1000
+                    pid: 2975, ppid: 1904, uid: 1000
                             [Main Process]
                                   |
                                 sleep(3)
@@ -229,7 +208,7 @@ int main(void) {
 
 Output Program
 
-![App Screenshot](img/fork2.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-6.png?raw=true)
 
 Visualisasi
 
@@ -241,7 +220,7 @@ int main() {
                           /       \
                         /           \
   while(1){           /               \
-          PID: 2793, PPID: -       PID: 2794, PPID: 2793
+          PID: 3090, PPID: -       PID: 3091, PPID: 3090
           [Parent Process]          [Child Process]
                       \               /
                         \           /
@@ -291,7 +270,7 @@ int main(void) {
 
 Output Program
 
-![App Screenshot](img/fork3.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-8.png?raw=true)
 
 Visualisasi
 
@@ -301,7 +280,7 @@ int main() {
                                  +
                                /   \
     loop 0 to 5 {             /     \
-               pid: 5117, ppid: -    pid: 5118, ppid: 5117
+               pid: 3120, ppid: -    pid: 3121, ppid: 3120
                [Parent Process]     [Child Process]
                               \     /
                                \   /
@@ -374,7 +353,7 @@ int main(void) {
 
 Output Program 
 
-![App Screenshot](img/fork4.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-12.png?raw=true)
 
 Visualisasi
 
@@ -384,11 +363,11 @@ int main() {
                                  +
                                /   \
                               /     \
-               pid: 2887, ppid: -    \
+               pid: 3151, ppid: -    \
                 [Parent Process]      \  
                         |              \
                         |               \
-                       wait          pid: 2888, ppid: 2887
+                       wait          pid: 3152, ppid: 3151
                            \             [Child Process]
                             \         /
                              \       /
@@ -467,7 +446,7 @@ int main(void) {
 
 Output Program
 
-![App Screenshot](img/fork5.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-16.png?raw=true)
 
 Visualisasi
 
@@ -477,11 +456,11 @@ int main() {
                                     +
                                   /   \
                                 /       \
-                PID : 2926 PPID : -       \
+                PID : 3181 PPID : -       \
                  [Parent Process]           \
                         |                     \
                         |                       \
-                        |               PID : 2927 PPID : 2926
+                        |               PID : 3182 PPID : 3181
                       wait                    execl(/bin/ls)
                         \                     [Child Process]
                           \                       /
@@ -564,7 +543,7 @@ int main(void) {
 
 Output Program
 
-![App Screenshot](img/fork6.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-20.png?raw=true)
 
 Visualisasi
 
@@ -574,11 +553,11 @@ int main() {
                                  +
                                /   \
                               /     \
-               pid: 5138, ppid: -    \
+               pid: 3208, ppid: -    \
                 [Parent Process]      \  
                         |              \
                         |               \
-                        |          pid: 5139, ppid: 5138
+                        |          pid: 3209, ppid: 3208
                        wait           execl(fork3) 
                           \           [Child Process]
                            \           /
@@ -661,7 +640,7 @@ int main() {
 
 Output Program
 
-![App Screenshot](img/matriks.png)
+![App Screenshot](https://github.com/daffaerfiansyah/SysOp24-3123500006/blob/main/Minggu%207-UTS/Assets/IMG-24.png?raw=true)
 
 Analisa
 
