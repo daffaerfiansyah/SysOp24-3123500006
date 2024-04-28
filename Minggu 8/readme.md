@@ -105,11 +105,11 @@ AGE=25
 ```
 ### How to Access Variables in Bash
 
-![App Screenshot](img/variables/2.png)
+![App Screenshot](Assets/IMG_01.png)
 
 Pertama adalah mendeklarasikan variable *AGE* dengan memberikan nilai 25. Kemudian menggunakan `echo` untuk menampilkan outputnya. Simbol dollar `$` sebelum nama variable sangat penting untuk mengakses nilainya.
 
-![App Screenshot](img/variables/3.png)
+![App Screenshot](Assets/IMG_02.png)
 
 ### Bash Shell Readonly Variables
 
@@ -117,7 +117,7 @@ Pertama adalah mendeklarasikan variable *AGE* dengan memberikan nilai 25. Kemudi
 
 Setelah variabel diberi nilai, kita dapat mengubahnya ke nilai baru menggunakan operator penugasan =
 
-![App Screenshot](img/variables/5.png)
+![App Screenshot](Assets/IMG_03.png)
 
 **Membuat Variable tidak dapat diperbarui**
 
@@ -125,7 +125,7 @@ Setelah variabel diberi nilai, kita dapat mengubahnya ke nilai baru menggunakan 
 
 keyword `readonly` mencegah variable untuk diperbarui, secara efektif mengubahnya menjadi `constant`
 
-![App Screenshot](img/variables/7.png)
+![App Screenshot](Assets/IMG_04.png)
 
 #### Bash unset variable
 
@@ -135,7 +135,7 @@ Keyword `unset` membantu menghilangkan nilai dari variable yang ditentukan. Vari
 
 Output:
 
-![App Screenshot](img/variables/9.png)
+![App Screenshot](Assets/IMG_05.png)
 
 ### Bash Global Variables
 
@@ -143,7 +143,7 @@ Output:
 
 Output:
 
-![App Screenshot](img/variables/11.png)
+![App Screenshot](Assets/IMG_06.png)
 
 ### Bash Local variables
 
@@ -151,7 +151,7 @@ Output:
 
 Output:
 
-![App Screenshot](img/variables/14.png)
+![App Screenshot](Assets/IMG_07.png)
 
 ## Bash - Loop File
 
@@ -161,27 +161,27 @@ Output:
 
 Output:
 
-![App Screenshot](img/loop-file/3.png)
+![App Screenshot](Assets/IMG_08.png)
 
 Output diatas merupakan isi dari file `filename.txt` 
 
-![App Screenshot](img/loop-file/2.png)
+![App Screenshot](Assets/IMG_09.png)
 
 ## Bash - Comments
 
 ### Single line Comment in bash shell
-![App Screenshot](img/comments/1.png)
+![App Screenshot](Assets/IMG_10.png)
 
 Output:
 
-![App Screenshot](img/comments/2.png)
+![App Screenshot](Assets/IMG_11.png)
 
 ### Multi-Line comments in a shell script
 ![App Screenshot](img/comments/3.png)
 
 Output:
 
-![App Screenshot](img/comments/4.png)
+![App Screenshot](Assets/IMG_12.png)
 
 ## Bash - Arrays
 
@@ -206,21 +206,21 @@ Output:
 
 Output:
 
-![App Screenshot](img/arrays/8.png)
+![App Screenshot](Assets/IMG_13.png)
 
 ### Declare an Array of strings and loop through
 ![App Screenshot](img/arrays/9.png)
 
 Output:
 
-![App Screenshot](img/arrays/10.png)
+![App Screenshot](Assets/IMG_14.png)
 
 ### Access the first elements of an array
 ![App Screenshot](img/arrays/11.png)
 
 Output:
 
-![App Screenshot](img/arrays/12.png)
+![App Screenshot](Assets/IMG_15.png)
 
 ### Get the last element of an array
 Dalam skrip bash, dapat menggunakan indeks=-1 untuk mendapatkan elemen array terakhir.
@@ -233,7 +233,7 @@ Dengan versi bash 4.0 terbaru, dapat menggunakan sintaks di bawah ini untuk memb
 
 Output:
 
-![App Screenshot](img/arrays/14.png)
+![App Screenshot](Assets/IMG_16.png)
 
 ### Iterate or loop array elements
 For loop digunakan untuk mengulangi elemen.
@@ -244,7 +244,7 @@ Berikut adalah contoh contoh loop array untuk mencetak semua elemen
 
 Output:
 
-![App Screenshot](img/arrays/18.png)
+![App Screenshot](Assets/IMG_17.png)
 
 Cara lain untuk mencetak indeks dan elemen array menggunakan for loop.
 
@@ -252,7 +252,7 @@ Cara lain untuk mencetak indeks dan elemen array menggunakan for loop.
 
 Output:
 
-![App Screenshot](img/arrays/20.png)
+![App Screenshot](Assets/IMG_18.png)
 
 ### Print all array elements
 Gunakan [@] atau [*] untuk mencetak semua elemen array.
@@ -261,7 +261,7 @@ Gunakan [@] atau [*] untuk mencetak semua elemen array.
 
 Output:
 
-![App Screenshot](img/arrays/22.png)
+![App Screenshot](Assets/IMG_19.png)
 
 ### Remove an element from an array
 Menghapus elemen dari array menggunakan `unset` indeks tertentu.
@@ -270,7 +270,7 @@ Menghapus elemen dari array menggunakan `unset` indeks tertentu.
 
 Output:
 
-![App Screenshot](img/arrays/24.png)
+![App Screenshot](Assets/IMG_20.png)
 
 ### Adding an element to an array
 Contoh penambahan elemen awal dan akhir serta tengah
@@ -279,21 +279,21 @@ Contoh penambahan elemen awal dan akhir serta tengah
 
 Output:
 
-![App Screenshot](img/arrays/26.png)
+![App Screenshot](Assets/IMG_21.png)
 
 ### Length of an array
 ![App Screenshot](img/arrays/27.png)
 
 Output:
 
-![App Screenshot](img/arrays/28.png)
+![App Screenshot](Assets/IMG_22.png)
 
 ## Bash - Expansion
 ![App Screenshot](img/expansion/1.png)
 
 Output:
 
-![App Screenshot](img/expansion/2.png)
+![App Screenshot](Assets/IMG_23.png)
 
 ## Bash - Conditional Expression
 Ekspresi kondisional dievaluasi pada waktu eksekusi skrip, berdasarkan hasil, Ia mengeksekusi blok perintah tertentu.
@@ -332,7 +332,7 @@ Contohnya sebagai berikut:
 
 Output:
 
-![App Screenshot](img/case-statements/3.png)
+![App Screenshot](Assets/IMG_25.png)
 
 ## Bash - Special Characters
 ### Blankspace(" “):
@@ -1192,7 +1192,7 @@ Cara lain:
 
 Output
 
-![App Screenshot](img/variable-set/14.png)
+![App Screenshot](Assets/IMG_26.png)
 
 Opsi penggunaan -z lainnya untuk memeriksa variabel disetel dan kosong atau tidak kosong menggunakan kode di bawah ini
 
@@ -1200,7 +1200,7 @@ Opsi penggunaan -z lainnya untuk memeriksa variabel disetel dan kosong atau tida
 
 Output:
 
-![App Screenshot](img/variable-set/16.png)
+![App Screenshot](Assets/IMG_27.png)
 
 ## Bash - Iterate Nos
 
@@ -1212,7 +1212,7 @@ Output:
 
 Output:
 
-![App Screenshot](img/iterate-nos/2.png)
+![App Screenshot](Assets/IMG_28.png)
 
 **using for loop**
 
@@ -1220,7 +1220,7 @@ Output:
 
 Output:
 
-![App Screenshot](img/iterate-nos/4.png)
+![App Screenshot](Assets/IMG_29.png)
 
 **while loop**
 
@@ -1228,4 +1228,4 @@ Output:
 
 Output:
 
-![App Screenshot](img/iterate-nos/6.png)  
+![App Screenshot](Assets/IMG_30.png)  
